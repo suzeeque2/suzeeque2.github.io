@@ -21,14 +21,14 @@ h3 {
 
 p {
 	color: rgba(0,0,0,.8);
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: normal;
 	text-align: center
 }
 
 #slogan {
 	color: rgb(255,0,0);
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
 }
@@ -54,6 +54,13 @@ ul {
 	color: rgb(255,0,0);
 	font-size: 18px;
 	font-weight: bold;
+	text-align: left;
+}
+
+#contact {
+	color: rgba(0,0,0,.8);
+	font-size: 16px;
+	font-weight: normal;
 	text-align: left;
 }
 
