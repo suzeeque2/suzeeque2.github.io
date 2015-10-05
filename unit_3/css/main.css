@@ -5,34 +5,38 @@ body {
 
 h1 {
 	color: rgb(255,0,0);
-	/*font-family: Helvetica, sans-serif;*/
 	font-size: 24px;
-	font-weight: 700px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h3 {
+	color: rgb(255,0,0);
+	font-size: 24px;
+	font-weight: bold;
 	text-align: center;
 }
 
 
 p {
 	color: rgba(0,0,0,.8);
-	/*font-family: Helvetica, sans-serif;*/
 	font-size: 14px;
 	font-weight: normal;
 	text-align: left
 }
 
 #slogan {
-	color: rgba(0,0,0,.8);
-	/*font-family: Helvetica, sans-serif;*/
+	color: rgb(255,0,0);
 	font-size: 18px;
-	font-weight: 600px;
-	text-align: center;
+	font-weight: normal;
+	text-align: left;
 }
 
 #projects {
 	color: rgb (255, 0 0);
-	/*font-family: Helvetica, sans-serif;*/
 	font-size: 18px;
-	font-weight: 600px
+	font-weight: bold;
 	text-align: left;
 
 }
@@ -40,9 +44,8 @@ p {
 ul {
 	list-style-type: none;
 	color: rgba (0,0,0,.8);
-	/*font-family: Helvetica, sans-serif;*/
 	font-size: 16px;
-	font-weight: 500px;
+	font-weight: normal;
 	text-align: left;
 
 }
@@ -50,7 +53,7 @@ ul {
 #please {
 	color: rgb(255,0,0);
 	font-size: 18px;
-	font-weight: 700px;
+	font-weight: bold;
 	text-align: left;
 }
 
