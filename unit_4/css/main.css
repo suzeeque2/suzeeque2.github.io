@@ -1,15 +1,16 @@
+
 body {
 	background: rgb(255,255,255);
-	font-family: Helvetica, sans-serif;
+	font-family: 'Luckiest Guy', cursive;
 	margin-left: 20px;
 	padding-left: 20px;
 }
 
 h1 {
 	color: rgb(255,0,0);
+	font-family: 'Luckiest Guy', cursive;
 	font-size: 24px;
-	font-weight: bold;
-	text-transform: uppercase;
+	font-weight: normal;
 	text-align: center;
 }
 
