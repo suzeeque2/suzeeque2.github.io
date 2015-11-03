@@ -14,14 +14,15 @@ nav {
 }
 
 nav a {
-	display block;
+	display: inline-block;
 	float: right;
 	padding: 10px;
-	font-family: 'Palanquin Dark:500', serif;
+	font-family: 'Palanquin Dark', sans-serif;
 	font-size: 24px;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: uppercase;
-	background: rgba(156,177,152,.25);
+	background: rgb(156,177,152);
+	color: rgb(0,0,0);
 
 }
