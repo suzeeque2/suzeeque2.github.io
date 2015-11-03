@@ -5,7 +5,7 @@
 }
 
 header img {
-	margin: 20px;
+	margin: 5px;
 }
 
 nav {
@@ -17,10 +17,11 @@ nav a {
 	display block;
 	float: right;
 	padding: 10px;
-	font-family: 'Palanquin Dark', serif;
+	font-family: 'Palanquin Dark:500', serif;
 	font-size: 24px;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: uppercase;
+	background: rgba(156,177,152,.25);
 
 }
