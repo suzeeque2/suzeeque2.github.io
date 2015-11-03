@@ -1,0 +1,26 @@
+#container {
+	margin: 0 auto;
+	width: 900px;
+	background-color: rgb(255,255,255);
+}
+
+header img {
+	margin: 20px;
+}
+
+nav {
+	background: rgba(156,177,152,.25);
+
+}
+
+nav a {
+	display block;
+	float: right;
+	padding: 10px;
+	font-family: 'Palanquin Dark', serif;
+	font-size: 24px;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
