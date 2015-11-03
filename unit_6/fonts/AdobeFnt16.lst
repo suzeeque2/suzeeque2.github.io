@@ -1,0 +1,70 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Kameron-Bold
+FamilyName:Kameron
+StyleName:Bold
+MenuName:Kameron
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Kameron Bold
+WritingScript:Roman
+OutlineFileName:\Kameron-Bold.ttf
+DataFormat:sfntData
+FileLength:64796
+FileModTime:1445140692
+NameArray:0,Mac,18,Kameron Bold
+NameArray:0,Mac,4,Kameron Bold
+NameArray:0,Win,1,Kameron
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1398261105
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PalanquinDark-Medium
+FamilyName:Palanquin Dark
+StyleName:Medium
+MenuName:Palanquin Dark Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Palanquin Dark Regular
+WritingScript:Roman
+OutlineFileName:\PalanquinDark-Medium.ttf
+DataFormat:sfntData
+FileLength:512684
+FileModTime:1445140664
+NameArray:0,Win,1,Palanquin Dark Medium
+NameArray:0,Win,16,Palanquin Dark
+%EndFont
+
