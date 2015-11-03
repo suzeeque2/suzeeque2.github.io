@@ -1,11 +1,11 @@
 #container {
 	margin: 0 auto;
-	width: 900px;
+	width: 960px;
 	background-color: rgb(255,255,255);
 }
 
 header img {
-	margin: 5px;
+	margin: 10px,10px,10px,10px;
 }
 
 nav {
