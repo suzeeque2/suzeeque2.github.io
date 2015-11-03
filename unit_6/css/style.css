@@ -1,12 +1,12 @@
 #container {
-	margin: 0 auto;
+	margin: 10px auto;
 	width: 960px;
 	background-color: rgb(255,255,255);
 }
 
-header img {
+/*header img {
 	margin: 10px,10px,10px,10px;
-}
+}*/
 
 nav {
 	background: rgba(156,177,152,.25);
