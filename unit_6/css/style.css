@@ -4,10 +4,6 @@
 	background-color: rgb(255,255,255);
 }
 
-/*header img {
-	margin: 10px,10px,10px,10px;
-}*/
-
 nav {
 	background: rgba(156,177,152,.25);
 
@@ -22,7 +18,11 @@ nav a {
 	font-weight: 700;
 	text-decoration: none;
 	text-transform: uppercase;
-	background: rgb(156,177,152);
+	background-color: rgb(156,177,152);
 	color: rgb(0,0,0);
 
+}
+
+nav a:hover { 
+  background-color: rgba(156,177,152, .25);
 }
