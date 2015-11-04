@@ -1,20 +1,35 @@
+
+body {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-size: 16px;
+}
+
 #container {
-	margin: 10px auto;
-	width: 960px;
+	margin: 2%, auto;
+	max-width: 1200px;
 	background-color: rgb(255,255,255);
+}
+
+header {
+	width: 20em;
+	display: inline-block;
+	margin: 2%;
 }
 
 nav {
 	background: rgba(156,177,152,.25);
+	float: right;
 
 }
 
 nav a {
 	display: inline-block;
-	float: right;
+	float: left;
 	padding: 10px;
 	font-family: 'Kameron', serif;
-	font-size: 24px;
+	font-size: 1.25em;
 	font-weight: 700;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -24,5 +39,26 @@ nav a {
 }
 
 nav a:hover { 
-  background-color: rgba(156,177,152, .25);
+  background-color: rgba(156,177,152,.35);
 }
+
+.column {
+	float: left;
+	width: 31.33%;
+	height: 400px;
+	margin: 1%, auto;
+}
+
+	img {
+		display: block;
+		margin: 10px, auto;
+		width: 200px
+		;
+	}
+
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		clear: both;
+		height: 0;
+	}
