@@ -13,8 +13,9 @@ body {
 }
 
 #zoelogo {
+	float: left;
 	width: 600px;
-	display: inline-block;
+	display: block;
 	margin: 2%;
 }
 
@@ -45,17 +46,16 @@ nav a:hover {
 #gallery {
 	display: block;
 	float: left;
-	width: 1200;
-	height: 1200px;
+	width: 1200px;
+	height: 1100px;
 	margin: 0 auto;
 	background: rgb(156, 177, 152);
 }
 
 	img {
 		display: block;
-		margin: 10px, auto;
-		width: 300px
-		;
+		margin: 20px auto 0px;
+		width: 300px;
 	}
 
 	.column {
@@ -64,24 +64,12 @@ nav a:hover {
 		margin: 1%;
 	}
 
-	#column1 {
-		background: rgba(156,177,152,.25);
-	}
-
-	#column2 {
-		background: rgba(156,177,152,.5);
-	}
-
-	#column3 {
-		background: rgba(156,177,152,.75);
-	}
-
 	figcaption {
 		font-family: 'Kameron' serif;
 		font-size: .75em;
 		width: 300px;
 		line-height: 1em;
-		margin: .75em;
+		margin: 10px auto;
 	}
 
 	.clearfix:after {
