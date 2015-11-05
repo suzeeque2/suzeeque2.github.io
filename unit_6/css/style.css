@@ -46,8 +46,8 @@ nav a:hover {
 	display: block;
 	float: left;
 	width: 1200;
-	height: 400px;
-	margin: 1% auto;
+	height: 1200px;
+	margin: 0 auto;
 	background: rgb(156, 177, 152);
 }
 
@@ -57,6 +57,25 @@ nav a:hover {
 		width: 300px
 		;
 	}
+
+	.column {
+		float: left;
+		width: 31%;
+		margin: 1%;
+	}
+
+	#column1 {
+		background: rgba(156,177,152,.25);
+	}
+
+	#column2 {
+		background: rgba(156,177,152,.5);
+	}
+
+	#column3 {
+		background: rgba(156,177,152,.75);
+	}
+
 	figcaption {
 		font-family: 'Kameron' serif;
 		font-size: .75em;
