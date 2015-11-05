@@ -13,7 +13,7 @@ body {
 }
 
 #zoelogo {
-	width: 40em;
+	width: 600px;
 	display: inline-block;
 	margin: 2%;
 }
@@ -42,17 +42,19 @@ nav a:hover {
   background-color: rgba(156,177,152,.35);
 }
 
-.column {
+#gallery {
+	display: block;
 	float: left;
-	width: 31.33%;
+	width: 1200;
 	height: 400px;
-	margin: 1%, auto;
+	margin: 1% auto;
+	background: rgb(156, 177, 152);
 }
 
-	#gallery {
+	img {
 		display: block;
 		margin: 10px, auto;
-		width: 200px
+		width: 300px
 		;
 	}
 
