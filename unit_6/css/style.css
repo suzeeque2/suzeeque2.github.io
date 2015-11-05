@@ -57,6 +57,13 @@ nav a:hover {
 		width: 300px
 		;
 	}
+	figcaption {
+		font-family: 'Kameron' serif;
+		font-size: .75em;
+		width: 300px;
+		line-height: 1em;
+		margin: .75em;
+	}
 
 	.clearfix:after {
 		visibility: hidden;
