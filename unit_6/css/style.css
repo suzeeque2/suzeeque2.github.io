@@ -7,13 +7,13 @@ body {
 }
 
 #container {
-	margin: 2%, auto;
+	margin: 2% auto;
 	max-width: 1200px;
 	background-color: rgb(255,255,255);
 }
 
-header {
-	width: 20em;
+#zoelogo {
+	width: 40em;
 	display: inline-block;
 	margin: 2%;
 }
@@ -49,7 +49,7 @@ nav a:hover {
 	margin: 1%, auto;
 }
 
-	img {
+	#gallery {
 		display: block;
 		margin: 10px, auto;
 		width: 200px
@@ -58,7 +58,9 @@ nav a:hover {
 
 	.clearfix:after {
 		visibility: hidden;
-		display: block;
-		clear: both;
-		height: 0;
+  		display: block;
+  		font-size: 0;
+  		content: " ";
+  		clear: both;
+  		height: 0;
 	}
