@@ -7,7 +7,7 @@ body {
 }
 
 #container {
-	margin: 2% auto;
+	margin: 2% auto 0%;
 	max-width: 1200px;
 	background-color: rgb(255,255,255);
 }
@@ -15,7 +15,7 @@ body {
 #zoelogo {
 	float: left;
 	width: 600px;
-	display: block;
+	display: inline-block;
 	margin: 2%;
 }
 
@@ -65,11 +65,35 @@ nav a:hover {
 	}
 
 	figcaption {
-		font-family: 'Kameron' serif;
+		font-family: 'Kameron', serif;
 		font-size: .75em;
 		width: 300px;
 		line-height: 1em;
 		margin: 10px auto;
+	}
+	footer {
+		background-color: rgb(212,194,222);
+		float: right;
+		width: 50%;
+		height: 6em;
+		padding: 1em;
+		margin: 0 auto;
+		display:inline-block;
+	}
+
+	h2 {
+		font-family: 'Palanquin Dark' sans-serif;
+		font-weight: 700px;
+		text-transform: lowercase;
+		line-height: 1em;
+		text-align: right;
+	}
+
+	h3 {
+		font-family: 'Kameron', serif;
+		font-weight: 700px;
+		line-height: 1em;
+		text-align: right;
 	}
 
 	.clearfix:after {
