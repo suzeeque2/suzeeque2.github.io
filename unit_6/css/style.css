@@ -14,15 +14,16 @@ body {
 
 #zoelogo {
 	float: left;
-	width: 600px;
+	width: 250px;
 	display: inline-block;
-	margin: 2%;
+	margin-bottom: 30px;
 }
 
 nav {
 	background: rgba(156,177,152,.25);
 	float: right;
-
+	position: relative;
+	top: 70px;
 }
 
 nav a {
@@ -36,7 +37,6 @@ nav a {
 	text-transform: uppercase;
 	background-color: rgb(156,177,152);
 	color: rgb(0,0,0);
-
 }
 
 nav a:hover { 
@@ -52,7 +52,7 @@ nav a:hover {
 	background: rgb(156, 177, 152);
 }
 
-	img {
+	figure > img {
 		display: block;
 		margin: 20px auto 0px;
 		width: 300px;
